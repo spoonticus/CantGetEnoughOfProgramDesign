@@ -1,0 +1,29 @@
+ECHO is on.
+1. Receive 15 measuremeants (DOWHILE)
+
+INPUTS
+
+Starting loop each day
+Scan 15 measurements 
+
+PROCESSING STEPS
+
+Convert 15 measurements to metric unit
+
+OUTPUTS
+
+save 15 measurements in metric
+print message
+	"All measurements processed"
+
+--------------------------------------------------------
+
+PSEUDOCODE
+
+DOWHILE 15 measurements received
+	convert 15 measurements into metricMeasurements
+print
+	15 metricMeasurements
+	"All measurements processed"
+
+ENDDO

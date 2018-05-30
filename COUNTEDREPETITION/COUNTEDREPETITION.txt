@@ -1,0 +1,29 @@
+ECHO is on.
+3. Read 15 measurements (Counted repetition)
+
+INPUTS
+
+read 15 measurements
+
+PROCESSING STEPS
+
+Convert 15 measurements to metric unit
+Repeat process until loop-index is met 
+
+OUTPUTS
+
+save 15 measurements in metric
+print message
+	"All measurements processed"
+	
+-----------------------------------------------------------------
+
+PSEUDOCODE
+
+DO loop-index = 1 + 1; final-value = infinity
+	convert 15 measurements into metricMeasurements
+	print
+		15 metricMeasurements
+		"All measurements processed"
+ENDDO
+
